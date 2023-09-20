@@ -12,7 +12,7 @@ new BrowserCheck('https-www-simonlet-cz', {
   muted: false,
   shouldFail: false,
   locations: ['us-east-1'],
-  tags: [],
+  tags: ['new-tag-added-in-git'],
   sslCheckDomain: '',
   frequency: Frequency.EVERY_10M,
   environmentVariables: [],
